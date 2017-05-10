@@ -1,0 +1,226 @@
+
+/* general styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    margin: auto;
+    max-width: 1550px;
+}
+
+/* header */
+
+header {
+  text-align: center;
+  height: 82vh;
+  width: 100%;
+  background: linear-gradient(
+                     rgba(90,90,90, .7),
+                     rgba(90,90,90, .7)),
+                     url("../images/legacyPhoto1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 5%;
+  color: #dbdbdb;
+  font-family: 'Arya', sans-serif;
+}
+
+h1 {
+  font-size: 3.157em;
+  padding-top: 70px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.777em;
+  padding-top: 35px;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3, h4 {
+  font-size: 1.333em;
+}
+
+h3 {
+  padding-top: 3%;
+}
+
+h4 {
+  padding-top: 10px;
+}
+
+/* main content general */
+
+main {
+  background-color: #eee;
+  color: #757575;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* about devotional */
+
+.aboutDevo {
+  width: 100%;
+  height: 30%;
+  padding: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* order button */
+
+.orderButton {
+  padding-bottom: 50px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.cta {
+  font-size: 20px;
+  background-color: #78909C;
+  color: #263238;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 12px 60px;
+  transition: all 0.5s ease;
+}
+
+.cta:hover {
+  transform: scale(1.2);
+  background-color: #B0BEC5;
+}
+
+/* recommendation */
+
+.recommendation {
+  width: 100%;
+  height: 50%;
+  padding-top: 35px;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: 400;
+  background-color: #CFD8DC;
+}
+
+p {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.recommendation p strong {
+  font-size: 1.3em;
+}
+
+.recommendationCredit {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+/* about Tim */
+
+.aboutTim {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  padding-bottom: 70px;
+}
+
+.aboutP {
+  width: 100%;
+  padding: 30px 30px 0px 30px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.aboutTim img {
+  width: 220px;
+  height: 280px;
+  border-color: #424242;
+  border-width: 2px;
+  border-style: solid;
+  padding: 2px;
+  margin: auto;
+}
+
+@media (min-width: 800px) {
+
+  .aboutTim {
+    flex-direction: row;
+  }
+
+  .aboutTim img {
+    margin: 0;
+  }
+
+  .aboutP {
+    text-align: left;
+    width: 40%;
+    padding: 0 30px 0 0;
+  }
+
+}
+
+/* contact */
+
+.contact {
+  background: linear-gradient(
+                     rgba(90,90,90, .9),
+                     rgba(90,90,90, .9)),
+                     url("../images/legacyPhoto2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.contact h1 {
+  font-family: 'Arya', sans-serif;
+  padding-top: 10%;
+  padding-bottom: 10px;
+  font-size: 2.4em;
+  letter-spacing: 6px;
+}
+
+.email {
+  padding-bottom: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.website {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.email:hover,
+.website:hover {
+  color: #f8c8b4;
+  transform: scale(1.1);
+}
+
+/* media queries */
