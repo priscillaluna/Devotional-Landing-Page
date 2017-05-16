@@ -71,8 +71,9 @@ main {
 
 .aboutDevo {
   width: 100%;
-  height: 30%;
-  padding: 50px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-size: 1.5em;
   padding-left: 8%;
@@ -107,7 +108,7 @@ main {
 
 .recommendation {
   width: 100%;
-  height: 50%;
+  height: auto;
   padding-top: 35px;
   text-align: center;
   padding-left: 20%;
@@ -222,5 +223,3 @@ p {
   color: #f8c8b4;
   transform: scale(1.1);
 }
-
-/* media queries */
